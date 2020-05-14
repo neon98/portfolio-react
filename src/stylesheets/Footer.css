@@ -1,0 +1,30 @@
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background-color: black;
+    font-size: 0.8em;
+    /* z-index: -1; */
+}
+.footer-icon {
+    margin: 0 10px;
+    color: var(--primary-color);
+}
+footer a{
+    margin: 0;
+    text-decoration: none;
+    color:var(--primary-color);
+    z-index: 999 !important;
+    padding: 0 5px;
+}
+
+@media (max-width:1024px){
+    footer{
+        font-size: 1.1em;
+    }
+}

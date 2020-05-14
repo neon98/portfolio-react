@@ -1,0 +1,17 @@
+.canvas-text-subtitle{
+  color: var(--secondary-color);
+  margin-left: -5px !important;
+  font-size: 2em;
+  font-weight: 700;
+}
+#cursor {
+  padding-left: 15px;;
+  border-right: 5px solid var(--secondary-color);
+  animation: blink .7s steps(1) infinite;
+}
+  
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

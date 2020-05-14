@@ -1,0 +1,24 @@
+#projects{
+    padding: 0 20%;
+}
+#projects .section-title{
+    padding-bottom: 0px;
+}
+
+@media (max-width:1024px){
+    #projects{
+        padding: 0 15%;
+    }
+}
+
+@media(max-width: 767px){
+    #projects{
+        padding: 0 10%;
+    }
+}
+
+@media (max-width: 481px) {
+    #projects{
+        padding: 0 5%;
+    }
+}

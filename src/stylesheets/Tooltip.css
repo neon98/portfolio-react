@@ -1,0 +1,32 @@
+div p{
+    margin: 0;
+}
+.tooltip-text-wrapper{
+    font-size: 0.6em;
+    position: absolute;
+    top: 8px;
+    margin: 0;
+    padding : 0 10px;
+    background: #1e253f;
+    color: var(--third-color);
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.tooltip-text-wrapper::after{
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.left{
+    right: 45px;
+    
+}
+.left::after{
+    top: 0%;
+    left: 100%;
+    margin: 5px 0;
+    border-color:  transparent transparent transparent #1e253f;;
+}
