@@ -13,7 +13,7 @@ export default class About extends React.Component {
 				<div className="about-content">
 					<Image
 						imageSize='large'
-						imageLink='https://user-images.githubusercontent.com/19610074/78087283-35c10e80-73de-11ea-8588-cb39ad7893c8.jpg'
+						imageLink='https://user-images.githubusercontent.com/19610074/82616839-02377f00-9bec-11ea-990c-430df9ea587b.jpg'
 						projectLink='https://github.com/neon98'
 					></Image>
 					<div className="about-content-text-wrapper" data-aos="fade" data-aos-delay="300">

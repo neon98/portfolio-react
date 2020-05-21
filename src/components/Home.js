@@ -6,7 +6,7 @@ import Media from 'react-media';
 
 import TypedText from './TypedText';
 import { particles } from '../assets/Particles'
-import working from '../assets/working.png'
+import workingFigure from '../assets/images/working.png'
 import '../stylesheets/Home.css'
 
 export default class Home extends React.Component {
@@ -66,7 +66,7 @@ export default class Home extends React.Component {
                             <TypedText />
                         </div>
                         <div className={this.state.screenSize==='small'? "canvas-content-image-wrapper":''}>
-                            <img style={{height:`${this.state.imageHeight}em`}}src={working} alt="" />
+                            <img style={{height:`${this.state.imageHeight}em`}}src={workingFigure} alt="" />
                         </div>
                     </div>
                 </div>

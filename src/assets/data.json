@@ -60,7 +60,7 @@
     "projects":[
         {
             "title":"Goodest Bois",
-            "imageLink":"https://user-images.githubusercontent.com/19610074/81925475-3a442e00-95fe-11ea-9e19-9634c011409c.png",
+            "imageLink":"https://user-images.githubusercontent.com/19610074/82615314-bedb1180-9be7-11ea-8e8e-dbb831f208da.jpg",
             "description":"A social networking web application for dog lovers / owners where they can create their dog's profile, upload photos and give Pat / Treat / Boop on the posts.",
             "techStack":[
                 "React.js","Firebase"
@@ -81,7 +81,7 @@
         },
         {
             "title":"Random Quotes",
-            "imageLink":"https://user-images.githubusercontent.com/19610074/81925470-387a6a80-95fe-11ea-81d6-bde630e2b881.png",
+            "imageLink":"https://user-images.githubusercontent.com/19610074/82615323-c13d6b80-9be7-11ea-9258-9b2f6b472756.png",
             "description":"A simple web application which generates random quotes by calling a third-party API and allows to tweet them.",
             "techStack":[
                 "jQuery"
